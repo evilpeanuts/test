@@ -1,6 +1,6 @@
 # git 笔记
 
-# git 基础命令
+## git 基础命令
 ```
 
 git init                    // 把文件变成可执行的git文件
@@ -18,7 +18,7 @@ git merge master            // 它会自动把master主分支之后的最新提�
 
 
 ```
-# window下需要先配置用户
+## window下需要先配置用户
 
 ```
 git config --global user.name "evilpeanuts"
@@ -28,7 +28,7 @@ git config --global push.default simple
 
 ```
 
-# copy 一个项目到本地
+## copy 一个项目到本地
 
 ```
 git clone https://github.com/evilpeanuts/test.git
