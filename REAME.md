@@ -1,6 +1,6 @@
 # git 笔记
 ```
-echo "# test"               // README.md
+
 git init                    // 把文件变成可执行的git文件
 git add .                   // 检测下面所有文件夹
 git commit -m "first commit"//  提交已修改的并注释
@@ -14,5 +14,21 @@ git fetch origin master     // 相当于是从远程获取最新版本到本地�
 git pull origin master      // 相当于是从远程获取最新版本并merge到本地
 git merge master            // 它会自动把master主分支之后的最新提交merge到你当前的develop分支上
 
+
+```
+# window下需要先配置用户
+
+```
+git config --global user.name "evilpeanuts"
+git config --global user.email "**@qq.com"
+git config --global push.default simple
+
+
+```
+
+# copy 一个项目到本地
+
+```
+git clone https://github.com/evilpeanuts/test.git
 
 ```
