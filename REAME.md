@@ -1,8 +1,10 @@
 # git 笔记
+
+# git 基础命令
 ```
 
 git init                    // 把文件变成可执行的git文件
-git add .                   // 检测下面所有文件夹
+git add x                   // 检测文件夹下面文件 x     git add . 检测所有
 git commit -m "first commit"//  提交已修改的并注释
 git remote add origin https://github.com/evilpeanuts/test.git // 与远程分支建立联系
 git push -u origin master   // 提交 -u 默认主机   以后直接 git push
