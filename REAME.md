@@ -39,9 +39,11 @@ git fetch origin master     // 相当于是从远程获取最新版本到本地�
 git pull origin master      // 相当于是从远程获取最新版本并merge到本地
 git merge master            // 它会自动把master主分支之后的最新提交merge到你当前的develop分支上
 
+```
 
 # 查看、切换、创建和删除分支
 
+```
 git br -r  // 查看远程分支
 
 git br <new_branch> // 创建新的分支
@@ -66,9 +68,13 @@ git br -d <branch> // 删除某个分支
 
 git br -D <branch> // 强制删除某个分支 (未被合并的分支被删除的时候需要强制)
 
+```
+
 
 # git暂存管理
 
+
+```
 git stash # 暂存
 
 git stash list # 列所有stash
