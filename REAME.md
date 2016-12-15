@@ -85,3 +85,17 @@ git stash drop # 删除暂存区
 
 
 ```
+
+
+# 回退版本
+
+
+```
+
+git reflog     //查看命令历史
+
+git log        //查看提交历史
+
+git reset --hard  commit_id   //HEAD指向的版本就是当前版本
+
+```
