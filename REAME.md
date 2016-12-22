@@ -81,6 +81,10 @@ git stash list # 列所有stash
 
 git stash apply # 恢复暂存的内容
 
+git pull  分支名    //从远程仓库拉取最新代码
+
+git stash pop    //合并代码到本地仓库  此时代码是将暂存的代码和远程仓库的代码合并
+
 git stash drop # 删除暂存区
 
 
