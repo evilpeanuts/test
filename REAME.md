@@ -37,7 +37,7 @@ git branch gh-pages         // 创建分支
 git checkout gh-pages       // 进入gh-pages 分支
 git fetch origin master     // 相当于是从远程获取最新版本到本地，不会自动merge
 git pull origin master      // 相当于是从远程获取最新版本并merge到本地
-git merge master            // 它会自动把master主分支之后的最新提交merge到你当前的develop分支上
+git merge master            // 它会自动把master主分支之后的最新提交merge到你当前的origin分支上
 
 ```
 
